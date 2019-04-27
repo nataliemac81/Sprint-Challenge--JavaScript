@@ -20,7 +20,7 @@ function CuboidMaker(attributes) {
 
 CuboidMaker.prototype.volume = function(length, width, height) {
   const vol = this.length * this.width * this.height;
-  console.log(`This cuboid has a volume of ${this.vol}`);
+  console.log(`This cuboid has a volume of ${vol}`);
 }
 
 
@@ -32,7 +32,7 @@ CuboidMaker.prototype.volume = function(length, width, height) {
 */
 CuboidMaker.prototype.surfaceArea = function(length, width, height) {
   const area = 2 * ((this.length * this.width) + (this.length * this.height) + (this.width * this.height));
-  console.log(`This cuboid has a surface area of ${this.area}`);
+  console.log(`This cuboid has a surface area of ${area}`);
 }
 
 
